@@ -5,11 +5,11 @@ The design files and datasheets associated with a custom camera trap PCB.
 This project builds on the PlanarID python app that uses unique elytral patterns on small beetles to identify individuals in a photographic record. 
 PlanarID details are available in the repo (https://github.com/KynanDelaney/PlanarID), and the resulting paper (https://doi.org/10.1002/2688-8319.70190).
 
-![Elytral patterns of beetles in ESE paper](https://besjournals.onlinelibrary.wiley.com/cms/asset/92ec6d53-f9be-42a0-a7c9-c935d9357c8e/eso370190-fig-0002-m.jpg)
+
 
 <p align="center" >
-  <img src="../readme_media/crop_output_tutorial.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
-  <figcaption align="center">Figure 3: A cropped version of an original image for individual C1CC-05, and a "machine-readable"
+  <img src="readme_media/crop_output_tutorial.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 1: An example image from a photogrpahic record, and the resulting "machine-readable"
 mask of the identifying pattern.</figcaption>
 </p>
 
