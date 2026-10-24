@@ -7,6 +7,12 @@ PlanarID details are available in the repo (https://github.com/KynanDelaney/Plan
 
 ![Elytral patterns of beetles in ESE paper](https://besjournals.onlinelibrary.wiley.com/cms/asset/92ec6d53-f9be-42a0-a7c9-c935d9357c8e/eso370190-fig-0002-m.jpg)
 
+<p align="center" >
+  <img src="../readme_media/crop_output_tutorial.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 3: A cropped version of an original image for individual C1CC-05, and a "machine-readable"
+mask of the identifying pattern.</figcaption>
+</p>
+
 ----
 
 ## Broad goals
