@@ -78,6 +78,18 @@ Things that need figuring out:
   <figcaption align="center">Figure 2: The working schematic for the PCB, subject o review. </figcaption>
 </p>
 
+### Project Gerber layout
+
+<p align="center" >
+  <img src="readme_media/Full gerber.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 3: Full, top-down view of Gerber file for proposed PCB. </figcaption>
+</p>
+
+<p align="center" >
+  <img src="readme_media/Screenshot 2026-10-27 080402.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 4: Top and bottom trace layer of proposed PCB. </figcaption>
+</p>
+
 ### Project BoM
 
 | Quantity | Comment | Designator | Footprint | Value | Manufacturer Part | 
@@ -106,6 +118,8 @@ Things that need figuring out:
 | 1 | TPS61232DRCT | U1 | VSON-10_L3.0-W3.0-P0.50-TL-EP-TPS61232DRCR | | TPS61232DRCT |
 | 1 | TPS22918DBVT | U2 | SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR | | TPS22918DBVT |
 | 1 | TL817 | U3 | SOP-4_L6.5-W4.6-P2.54-LS10.3-TL | | TL817 |
+----
+
 
 ## Developing thoughts
 
