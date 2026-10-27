@@ -9,8 +9,16 @@ PlanarID details are available in the repo (https://github.com/KynanDelaney/Plan
 
 <p align="center" >
   <img src="readme_media/crop_output_tutorial.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
-  <figcaption align="center">Figure 1: An example image from a photogrpahic record, and the resulting "machine-readable"
+  <figcaption align="center">Figure 1: An example image from a photographic record, and the resulting "machine-readable"
 mask of the identifying pattern.</figcaption>
+</p>
+
+These images are processed down to a binary mask focussing on the orange patches. The contours and corners of these masks are used to identify individuals using
+openCV algorithms.
+
+<p align="center" >
+  <img src="readme_media/PlanarID_visualise_fingerprint_matching.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 2: An example of pattern-matching using elytral features.</figcaption>
 </p>
 
 ----
@@ -75,19 +83,19 @@ Things that need figuring out:
 
 <p align="center" >
   <img src="readme_media/SCH_Prototype camera board_1-P1_2026-10-25.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
-  <figcaption align="center">Figure 2: The working schematic for the PCB, subject o review. </figcaption>
+  <figcaption align="center">Figure 3: The working schematic for the PCB, subject o review. </figcaption>
 </p>
 
 ### Project Gerber layout
 
 <p align="center" >
   <img src="readme_media/Full gerber.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
-  <figcaption align="center">Figure 3: Full, top-down view of Gerber file for proposed PCB. </figcaption>
+  <figcaption align="center">Figure 4: Full, top-down view of Gerber file for proposed PCB. </figcaption>
 </p>
 
 <p align="center" >
   <img src="readme_media/Screenshot 2026-10-27 080402.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
-  <figcaption align="center">Figure 4: Top and bottom trace layer of proposed PCB. </figcaption>
+  <figcaption align="center">Figure 5: Top and bottom trace layer of proposed PCB. </figcaption>
 </p>
 
 ### Project BoM
