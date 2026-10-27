@@ -128,6 +128,12 @@ Things that need figuring out:
 | 1 | TL817 | U3 | SOP-4_L6.5-W4.6-P2.54-LS10.3-TL | | TL817 |
 ----
 
+### 3D Render of PCB
+
+<p align="center" >
+  <img src="readme_media/3d render.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 6: 3D render of proposed PCB, for a sense of scale and layout. </figcaption>
+</p>
 
 ## Developing thoughts
 
