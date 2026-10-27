@@ -78,10 +78,22 @@ Things that need figuring out:
   <figcaption align="center">Figure 2: The working schematic for the PCB, subject o review. </figcaption>
 </p>
 
+### Project Gerber layout
+
+<p align="center" >
+  <img src="readme_media/Full gerber.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 3: Full, top-down view of Gerber file for proposed PCB. </figcaption>
+</p>
+
+<p align="center" >
+  <img src="readme_media/Screenshot 2026-10-27 080402.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 4: Top and bottom trace layer of proposed PCB. </figcaption>
+</p>
+
 ### Project BoM
 
-| Quantity | Comment | Designator | Footprint | Value | Manufacturer Part | 
-| :--- | :--- | :--- | :--- | :---: | :--- |
+| Quantity | Comment | Designator | Footprint | Value | Manufacturer Part |
+| --- | --- | --- | --- | --- | --- |
 | 5 | 22uF | C1,C3,C4,C5,C11 | C0805 | 22uF | CL21A226MAQNNNE |
 | 1 | 10nF | C2 | C0603 | 10nF | CC0603KRX7R9BB103 |
 | 1 | 1uF | C6 | C0805 | 1uF | CL21B105KBFNNNE |
@@ -98,14 +110,16 @@ Things that need figuring out:
 | 1 | 1uH | L1 | IND-SMD_L4.0-W4.0_XFL4020-102MEB | 1uH | XFL4020-102MEC |
 | 2 | LED_TH-R_5mm | LED1,LED2 | LED-TH_BD5.8-P2.54-FD | | |
 | 2 | SSM3J338R,LF | Q1,Q2 | SOT-23F_L2.9-W1.8-P0.95-LS2.4-BR | | SSM3J338R,LF |
-| 3 | 10kΩ | R1,R2,R4 | R0805 | 10kΩ | 0805W8F1002T5E |
-| 2 | 100kΩ | R3,R9 | R0805 | 100kΩ | 0805W8F1003T5E |
+| 4 | 10kΩ | R1,R2,R4,R9 | R0805 | 10kΩ | 0805W8F1002T5E |
+| 1 | 100kΩ | R3 | R0805 | 100kΩ | 0805W8F1003T5E |
 | 1 | 1kΩ | R5 | R0805 | 1kΩ | 0805W8F1001T5E |
 | 2 | 140Ω | R6,R7 | R1206 | 140Ω | FRC1206F1400TS |
 | 1 | 240Ω | R8 | R0603 | 240Ω | RC0603FR-07240RL |
 | 1 | TPS61232DRCT | U1 | VSON-10_L3.0-W3.0-P0.50-TL-EP-TPS61232DRCR | | TPS61232DRCT |
 | 1 | TPS22918DBVT | U2 | SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR | | TPS22918DBVT |
 | 1 | TL817 | U3 | SOP-4_L6.5-W4.6-P2.54-LS10.3-TL | | TL817 |
+----
+
 
 ## Developing thoughts
 
