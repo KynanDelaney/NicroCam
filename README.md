@@ -5,7 +5,7 @@ The design files and datasheets associated with a custom camera trap PCB.
 This project builds on the PlanarID python app that uses unique elytral patterns on small beetles to identify individuals in a photographic record. 
 PlanarID details are available in the repo (https://github.com/KynanDelaney/PlanarID), and the resulting paper (https://doi.org/10.1002/2688-8319.70190).
 
-
+**Schematics, BoM, and trace layout images at the bottom of readme. Gerber files available [here](readme_media/Gerber_PCB1_2026-10-27.zip).**
 
 <p align="center" >
   <img src="readme_media/crop_output_tutorial.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
@@ -13,8 +13,7 @@ PlanarID details are available in the repo (https://github.com/KynanDelaney/Plan
 mask of the identifying pattern.</figcaption>
 </p>
 
-These images are processed down to a binary mask focussing on the orange patches. The contours and corners of these masks are used to identify individuals using
-openCV algorithms.
+These images are processed down to a binary mask focussing on the orange patches. The contours and corners of these masks are used to identify individuals using openCV algorithms.
 
 <p align="center" >
   <img src="readme_media/PlanarID_visualise_fingerprint_matching.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
@@ -96,6 +95,11 @@ Things that need figuring out:
 <p align="center" >
   <img src="readme_media/Screenshot 2026-10-27 080402.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
   <figcaption align="center">Figure 5: Top and bottom trace layer of proposed PCB. </figcaption>
+</p>
+
+<p align="center" >
+  <img src="readme_media/annotated trace layout.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
+  <figcaption align="center">Figure 6: Crudely drawn annotations highlighting zones of concern and potential layout weaknesses. </figcaption>
 </p>
 
 ### Project BoM
