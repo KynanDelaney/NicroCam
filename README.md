@@ -131,7 +131,7 @@ The BoM and Pick-and-Place files are available **[here](readme_media/BOM_Prototy
 
 <p align="center" >
   <img src="readme_media/3d render.png" width="80%" style="border: 1px solid #005F6B; padding: 5px;">
-  <figcaption align="center">Figure 6: 3D render of proposed PCB, for a sense of scale and layout. </figcaption>
+  <figcaption align="center">Figure 5: 3D render of proposed PCB, for a sense of scale and layout. </figcaption>
 </p>
 
 ## Developing thoughts
